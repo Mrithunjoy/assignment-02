@@ -1,9 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Navbar CSS Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.shortcut{
+    display: flex;
+}
+.shortcut li{
+    list-style: none;
+    margin: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
 
 /* preebok */
-
+.center{
+    text-align: center;
+}
 
 .container{
     /* background-color: rgb(173, 167, 167); */
@@ -69,4 +89,32 @@ hr{
 }
 .fa-star{
     color: goldenrod;
+}
+h5{
+    text-align-last:right;
+    color: #E02C6D;
+}
+/* Message section */
+.message-area{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+.message-area, .right{
+    height: 100%;
+}
+/* Fotter css */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social-media, .fab{
+    margin-left: 10px;
 }
