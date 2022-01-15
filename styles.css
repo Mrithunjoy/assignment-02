@@ -156,5 +156,10 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    footer{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
 
 }
